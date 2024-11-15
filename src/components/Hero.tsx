@@ -24,7 +24,7 @@ const Hero = () => {
             NextFileManager
           </a>
           . Also check out{" "}
-          <a href="dev" className="font-semibold text-blue-500 dark:text-blue-400">
+          <a href="https://liamstamper.github.io/dev-journal" target="_blank" className="font-semibold text-blue-500 dark:text-blue-400">
             my blog
           </a>
           . For more projects checkout my github.
