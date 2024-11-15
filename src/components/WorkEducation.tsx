@@ -23,18 +23,21 @@ const WorkEducation = () => {
                 className="w-8 h-8 rounded-full text-gray-700 dark:text-gray-300"
               />
               <div>
-                <CardTitle>Undergraduate Research Assistant</CardTitle>
+                <CardDescription className="text-xs">May 2023 - Present</CardDescription>
+                <CardTitle><a className="hover:underline" href="https://our.research.uiowa.edu/" target="_blank">The University of Iowa</a></CardTitle>
                 <CardDescription>
-                  The University of Iowa • Jan 2024 - Present
+                Undergraduate Research Assistant
                 </CardDescription>
               </div>
             </div>
           </CardHeader>
           <CardContent>
-            <ul className="list-disc ml-4 dark:text-zinc-300">
+            <ul className="text-sm list-disc ml-4 dark:text-zinc-300">
               <li>
-                Developed mobile apps for Republic Polytechnic using React
-                Native.
+                Developed advanced machine learning models to perform precise cell segmentation for bone marrow scans.
+              </li>
+              <li>
+                Engineered a custom visualization tool using TypeScript, React and FastApi.
               </li>
             </ul>
           </CardContent>
@@ -47,20 +50,21 @@ const WorkEducation = () => {
                 className="w-8 h-8 rounded-full text-gray-700 dark:text-gray-300"
               />
               <div>
-                <CardTitle>Frontend Developer</CardTitle>
+                <CardDescription className="text-xs">Aug 2023 - Dec 2023</CardDescription>
+                <CardTitle><a className="hover:underline" href="https://seatstock.com" target="_blank">SeatStock</a></CardTitle>
                 <CardDescription>
-                  SeatStock • Aug 2023 - Dec 2023
+                  Lead Frontend Developer
                 </CardDescription>
               </div>
             </div>
           </CardHeader>
           <CardContent>
-            <ul className="list-disc ml-4 dark:text-zinc-300">
+            <ul className="text-sm list-disc ml-6 dark:text-zinc-300">
               <li>
-                Developed a backend system for bank account servicing processes.
+              Led the frontend development of a ticket marketplace application using TypeScript and React.
               </li>
               <li>
-                Built a custom database migration tool using Python and MariaDB.
+              Conducted usability testing and gathered feedback, iterating on UI/UX improvements to address user needs and improve overall satisfaction.
               </li>
             </ul>
           </CardContent>
@@ -73,20 +77,21 @@ const WorkEducation = () => {
                 className="w-8 h-8 rounded-full text-gray-700 dark:text-gray-300"
               />
               <div>
-                <CardTitle>Web Developer Intern</CardTitle>
+                <CardDescription className="text-xs">May 2022 - July 2022</CardDescription>
+                <CardTitle><a className="hover:underline" href="https://qualitymfgcorp.com" target="_blank">Quality Manufacturing Corporation</a></CardTitle>
                 <CardDescription>
-                  SeatStock • May 2022 - July 2022
+                Software Developer (Intern)
                 </CardDescription>
               </div>
             </div>
           </CardHeader>
           <CardContent>
-            <ul className="list-disc ml-4 dark:text-zinc-300">
+            <ul className="text-sm list-disc ml-4 dark:text-zinc-300">
               <li>
-                Developed a backend system for bank account servicing processes.
+                Designed and implemented data-driven part request forms using HTML/CSS, JavaScript, PHP, AJAX and SQL.
               </li>
               <li>
-                Built a custom database migration tool using Python and MariaDB.
+              Collaborated closely with cross-functional teams to refine requirements and ensure the interface met both user and business needs.
               </li>
             </ul>
           </CardContent>
@@ -102,18 +107,19 @@ const WorkEducation = () => {
                 className="w-8 h-8 rounded-full text-gray-700 dark:text-gray-300"
               />
               <div>
-                <CardTitle>Bachelor of Computer Science</CardTitle>
+                <CardDescription className="text-xs">Aug 2020 - Dec 2024</CardDescription>
+                <CardTitle><a href="https://uiowa.edu" className="hover:underline" target="_blank">The University of Iowa</a></CardTitle>
                 <CardDescription>
-                  The University of Iowa • 2021 - 2024
+                Bachelor of Arts in Computer Science
                 </CardDescription>
               </div>
             </div>
           </CardHeader>
           <CardContent>
-            <ul className="list-disc ml-4 dark:text-zinc-300">
-              <li>Focus on Artificial Intelligence and Machine Learning.</li>
+            <ul className="text-sm list-disc ml-4 dark:text-zinc-300">
+              <li>Mathematics minor. Event Planner for ACM 2024. Honors Program.</li>
               <li>
-                Completed projects in quantum computing and machine learning.
+                Algorithms, Data Structures, Software Developement, Math of Machine Learning, Calculus I-III, Linear Algebra and Discrete Math.
               </li>
             </ul>
           </CardContent>
