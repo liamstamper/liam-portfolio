@@ -2,7 +2,7 @@ import React from "react";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import Hero from "@/components/Hero";
 import WorkEducation from "@/components/WorkEducation";
-import SocialLinks from "./components/SocialLinks";
+import SocialLinks from "@/components/SocialLinks";
 
 const App: React.FC = () => {
   return (
