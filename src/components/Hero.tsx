@@ -18,13 +18,13 @@ const Hero = () => {
           I'm currently working on{" "}
           <a
             href="https://github.com/aaw3/NextFileManager"
-            className="font-semibold text-blue-400"
+            className="font-semibold text-blue-500 dark:text-blue-400"
             target="_blank"
           >
             NextFileManager
           </a>
           . Also check out{" "}
-          <a href="dev" className="font-semibold text-blue-400">
+          <a href="dev" className="font-semibold text-blue-500 dark:text-blue-400">
             my blog
           </a>
           .
