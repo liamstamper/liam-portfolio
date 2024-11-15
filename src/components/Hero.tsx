@@ -27,7 +27,7 @@ const Hero = () => {
           <a href="dev" className="font-semibold text-blue-500 dark:text-blue-400">
             my blog
           </a>
-          .
+          . For more projects checkout my github.
         </p>
       </div>
 
