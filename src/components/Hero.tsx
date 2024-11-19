@@ -1,4 +1,5 @@
 import LiamImage from "@/assets/Liam.jpeg";
+import Resume from "@/assets/Liam-Stamper.pdf";
 
 const Hero = () => {
   return (
@@ -39,7 +40,15 @@ const Hero = () => {
           >
             Check out our project
           </a>
-          . For more, visit my GitHub.
+          . For more, visit my GitHub or{" "}
+          <a
+            href={Resume}
+            target="_blank"
+            className="font-semibold text-blue-500 dark:text-blue-400"
+            rel="noopener noreferrer"
+          >
+            view my resume.
+          </a>
         </p>
       </div>
 
