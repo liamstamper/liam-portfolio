@@ -13,25 +13,37 @@ const Hero = () => {
         </p>
 
         <p className="text-md dark:text-zinc-300">
-          I like working with{" "}
-          <span className="font-semibold">React, TypeScript, FastApi and Nest.js</span>.
-          I'm currently working on{" "}
+          I specialize in{" "}
+          <span className="font-semibold">
+            TypeScript, React, FastAPI, and Nest.js
+          </span>
+          . I'm currently working on{" "}
           <a
             href="https://github.com/aaw3/NextFileManager"
             className="font-semibold text-blue-500 dark:text-blue-400"
             target="_blank"
+            rel="noopener noreferrer"
           >
             NextFileManager
           </a>
-          . Also check out{" "}
-          <a href="https://liamstamper.github.io/dev-journal" target="_blank" className="font-semibold text-blue-500 dark:text-blue-400">
-            my blog
+          . Recently, I earned{" "}
+          <span className="font-semibold">
+            2nd place at Iowa State University's Hackathon
+          </span>
+          .{" "}
+          <a
+            href="https://github.com/liamstamper/quizly"
+            target="_blank"
+            className="font-semibold text-blue-500 dark:text-blue-400"
+            rel="noopener noreferrer"
+          >
+            Check out our project
           </a>
-          . For more projects checkout my github.
+          . For more, visit my GitHub.
         </p>
       </div>
 
-      <div className="flex-shrink-0 self-center md:self-start order:1">
+      <div className="flex-shrink-0 self-center md:self-start order-1">
         <img
           src={LiamImage}
           alt="Liam"
