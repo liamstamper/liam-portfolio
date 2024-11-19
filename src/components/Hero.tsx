@@ -32,7 +32,7 @@ const Hero = () => {
           </span>
           .{" "}
           <a
-            href="https://github.com/liamstamper/quizly"
+            href="https://devpost.com/software/quizly-ml51fc"
             target="_blank"
             className="font-semibold text-blue-500 dark:text-blue-400"
             rel="noopener noreferrer"
