@@ -16,31 +16,17 @@ const Hero = () => {
         <p className="text-md dark:text-zinc-300">
           I specialize in{" "}
           <span className="font-semibold">
-            TypeScript, React, FastAPI, and Nest.js
+            TypeScript, React, NestJS, FastApi and Next.js
           </span>
-          . I'm currently working on{" "}
+          . For more, visit my {" "}
           <a
-            href="https://github.com/aaw3/NextFileManager"
-            className="font-semibold text-blue-500 dark:text-blue-400"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            NextFileManager
-          </a>
-          . Recently, I earned{" "}
-          <span className="font-semibold">
-            2nd place at Iowa State University's Hackathon
-          </span>
-          .{" "}
-          <a
-            href="https://devpost.com/software/quizly-ml51fc"
+            href="https://github.com/liamstamper"
             target="_blank"
             className="font-semibold text-blue-500 dark:text-blue-400"
             rel="noopener noreferrer"
           >
-            Check out our project
-          </a>
-          . For more, visit my GitHub or{" "}
+            GitHub
+          </a> or{" "}
           <a
             href={Resume}
             target="_blank"
