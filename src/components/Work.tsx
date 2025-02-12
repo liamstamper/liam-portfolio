@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card";
 import IowaLogo from "@/assets/iowa.jpg";
 import SeatStockLogo from "@/assets/seatstock.png";
-import CentroLogo from "@/assets/centro.png";
+import CentroLogo from "@/assets/Centro.png";
 const WorkEducation = () => {
   return (
     <section>
