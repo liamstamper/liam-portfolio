@@ -5,7 +5,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import IowaLogo from "@/assets/Iowa.jpg";
+import IowaLogo from "@/assets/iowa.jpg";
 import SeatStockLogo from "@/assets/seatstock.png";
 import CentroLogo from "@/assets/centro.png";
 const WorkEducation = () => {
