@@ -10,15 +10,11 @@ const Hero = () => {
         <p className="text-md dark:text-white">
           I'm a{" "}
           <span className="underline font-semibold">full-stack developer</span>{" "}
-          based in Iowa City. I love exploring new tech and getting outdoors.
-        </p>
-
-        <p className="text-md dark:text-zinc-300">
-          I specialize in{" "}
-          <span className="font-semibold">
-            TypeScript, React, NestJS, FastApi and Next.js
-          </span>
-          . For more, visit my {" "}
+          based in Iowa City. I specialize in{" "}
+          <span className="font-semibold underline">
+            TypeScript, React and NestJS.
+          </span>{" "}
+          For more, visit my{" "}
           <a
             href="https://github.com/liamstamper"
             target="_blank"
@@ -26,14 +22,15 @@ const Hero = () => {
             rel="noopener noreferrer"
           >
             GitHub
-          </a> or{" "}
+          </a>{" "}
+          or{" "}
           <a
             href={Resume}
             target="_blank"
             className="font-semibold text-blue-500 dark:text-blue-400"
             rel="noopener noreferrer"
           >
-            view my resume.
+            View My Resume.
           </a>
         </p>
       </div>
