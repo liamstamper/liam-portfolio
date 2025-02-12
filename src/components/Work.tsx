@@ -42,8 +42,8 @@ const WorkEducation = () => {
             </li>
             <li>
               Engineered a high-efficiency NestJS mold inventory system,
-              reducing API response times by 200% and significantly improving
-              data synchronization across the organization.
+              reducing API response times by 200%, significantly improving data
+              synchronization across the organization.
             </li>
           </ul>
         </CardContent>
