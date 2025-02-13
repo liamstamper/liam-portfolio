@@ -9,7 +9,7 @@ import Education from "./components/Education";
 const App: React.FC = () => {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className="min-h-screen bg-backgroundLight dark:bg-backgroundDark">
+      <div className="min-h-screen bg-backgroundLight dark:bg-backgroundDark pb-20">
         <Hero />
         <SocialLinks />
         <Tabs defaultValue="experience" className="w-full container mt-10">
