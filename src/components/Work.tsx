@@ -16,7 +16,7 @@ const WorkEducation = () => {
           <div className="flex items-center gap-4">
             <img
               src={CentroLogo}
-              className="w-8 h-8 rounded-full text-gray-700 dark:text-gray-300"
+              className="w-10 h-10 rounded-full text-gray-700 dark:text-gray-300"
             />
             <div>
               <CardTitle>
@@ -37,13 +37,13 @@ const WorkEducation = () => {
         <CardContent>
           <ul className="text-sm space-y-2 list-disc ml-4 dark:text-zinc-300">
             <li>
-              Developed full-stack features using TypeScript, Next.js, and
-              NestJS, integrating TypeORM, TanStack, Kubb, and Microsoft SQL.
+              Developed full-stack features using TypeScript, Next.js, TypeORM
+              and NestJS, integrating with Microsoft SQL.
             </li>
             <li>
-              Engineered a high-efficiency NestJS mold inventory system,
-              reducing API response times by 200%, significantly improving data
-              synchronization across the organization.
+              Engineered a high-efficiency NestJS inventory system, reducing API
+              response times and improving data synchronization across the
+              organization.
             </li>
           </ul>
         </CardContent>
@@ -66,7 +66,7 @@ const WorkEducation = () => {
                 </a>
               </CardTitle>
               <CardDescription className="py-[1px] text-xs">
-                Research Assistant (May 2023 - Dec 2024)
+                AI Research Assistant (May 2023 - Dec 2024)
               </CardDescription>
             </div>
           </div>
@@ -77,6 +77,10 @@ const WorkEducation = () => {
               Developed an interactive data visualization platform with
               TypeScript, React, and FastAPI, enabling real-time analysis and
               intuitive exploration of cell segmentation results.
+            </li>
+            <li>
+              Optimized data processing pipelines, reducing computation time for
+              large-scale analyses and enabling faster research iterations.
             </li>
           </ul>
         </CardContent>
@@ -99,7 +103,7 @@ const WorkEducation = () => {
                 </a>
               </CardTitle>
               <CardDescription className="py-[1px] text-xs">
-                Co-Founder and Lead Frontend Developer (Aug 2023 - Dec 2023)
+                Lead Frontend Developer and Co-Founder(Aug 2023 - Dec 2023)
               </CardDescription>
             </div>
           </div>

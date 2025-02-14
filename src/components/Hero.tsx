@@ -7,11 +7,13 @@ const Hero = () => {
       <div className="text-center md:text-left max-w-lg space-y-4 order-2">
         <h1 className="text-4xl font-bold">Hi, I'm Liam 👋</h1>
 
-        <p className="text-md dark:text-white">
+        <p className="text-md dark:text-gray-300">
           I'm a{" "}
-          <span className="underline font-semibold">full-stack developer</span>{" "}
+          <span className="underline font-semibold  dark:text-white">
+            full-stack developer
+          </span>{" "}
           based in Iowa City. I specialize in{" "}
-          <span className="font-semibold underline">
+          <span className="font-semibold underline  dark:text-white">
             TypeScript, React and NestJS.
           </span>{" "}
           For more, visit my{" "}
