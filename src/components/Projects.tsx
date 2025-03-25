@@ -27,7 +27,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Quizly <MoveRight className="ml-1" size={"12px"} />
+                  Quizly <MoveRight className="ml-1 mt-[1px]" size={"12px"} />
                 </a>
               </CardTitle>
               <CardDescription className="text-xs">
@@ -65,7 +65,8 @@ export default function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  NextFileManager <MoveRight className="ml-1" size={"12px"} />
+                  NextFileManager{" "}
+                  <MoveRight className="ml-1 mt-[1px]" size={"12px"} />
                 </a>
               </CardTitle>
               <CardDescription className="text-xs">
